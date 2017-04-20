@@ -1,12 +1,14 @@
 .content {
-	margin: 6%;
+	margin: 83px;
+	box-sizing: border-box;
 }
 .box {
+	display: inline-block;
 	width: 220px;
 	height: 270px;
 	box-shadow: 8px 10px 14px -8px #CECECE;
+	color: #777777;
 	font-family: 'Roboto', sans-serif;
-	float: left;
 	text-align: center;
 	background-color: #F4F1F1;
 	padding-top: 30px;
@@ -19,11 +21,10 @@
 
 h2 {
 	font-family: 'Lato', sans-serif;
-	color: #777777;
 }
 
-.box:hover h2 {
-	color: #7ea5f4;
+h5 {
+	font-style: italic;
 }
 
 span {
@@ -34,7 +35,8 @@ p {
 	padding: 3px;
 }
 
-.box:hover {
+/*box uno*/
+.uno:hover {
 	padding-top: 20px;
 	color: white;
 	background-color: #fff;
@@ -43,6 +45,80 @@ p {
 	-webkit-transition: all .0.5s ease-in-out;
 }
 
-.box:hover h5 {
+.uno:hover h2 {
+	color: #7ea5f4;
+}
+
+.uno:hover h5 {
+	color: #777777;
+}
+/*box dos*/
+.dos:hover {
+	padding-top: 20px;
+	color: white;
+	background-color: #fff;
+	-webkit-transform: scale(1.1);
+	color: #7ef4cd;
+	-webkit-transition: all .0.5s ease-in-out;
+}
+
+.dos:hover h2 {
+	color: #7ef4cd;
+}
+
+.dos:hover h5 {
+	color: #777777;
+}
+/*box tres*/
+.tres:hover {
+	padding-top: 20px;
+	color: white;
+	background-color: #fff;
+	-webkit-transform: scale(1.1);
+	color: #f47ea5;
+	-webkit-transition: all .0.5s ease-in-out;
+}
+
+.tres:hover h2 {
+	color: #f47ea5;
+}
+
+.tres:hover h5 {
+	color: #777777;
+}
+
+/*box cuatro*/
+.cuatro:hover {
+	padding-top: 20px;
+	color: white;
+	background-color: #fff;
+	-webkit-transform: scale(1.1);
+	color: #f4cd7e;
+	-webkit-transition: all .0.5s ease-in-out;
+}
+
+.cuatro:hover h2 {
+	color: #f4cd7e;
+}
+
+.cuatro:hover h5 {
+	color: #777777;
+}
+
+/*box cinco*/
+.cinco:hover {
+	padding-top: 20px;
+	color: white;
+	background-color: #fff;
+	-webkit-transform: scale(1.1);
+	color: #a5f47e;
+	-webkit-transition: all .0.5s ease-in-out;
+}
+
+.cinco:hover h2 {
+	color: #a5f47e;
+}
+
+.cinco:hover h5 {
 	color: #777777;
 }
